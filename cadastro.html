@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página cadastro</title>
+    <link rel="stylesheet" href="/styles.css"> <!-- Link para o CSS se necessário -->
+</head>
+
+<body>
+    <header>
+        <h1>cadastro</h1>
+    </header>
+
+    <main>
+        <h1>Bem-vindo à Página cadastro</h1>
+        <form action="http://localhost:3000/post/" method="GET">
+            Tipo : <input type="text" name="tipo"><br>
+            nome: <input type="text" name="nome"><br>
+            preço: <input type="number" name="preco"><br>
+            <button type="submit">Send to backend</button>
+        </form>
+
+        <section>
+            <h2>Informações Adicionais</h2>
+            <ul>
+                <li><a href="/cadastro">cadastro</a></li>
+            </ul>
+            
+            <p>Esta página não contém informações apenas para usuários autenticados.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Seu Site</p>
+    </footer>
+</body>
+
+</html>
